@@ -1,0 +1,20 @@
+/* src/styles/BottomNav.css */
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    background: #00796b;
+    padding: 10px 0;
+  }
+  
+  .bottom-nav button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .bottom-nav button:hover {
+    text-decoration: underline;
+  }
+  

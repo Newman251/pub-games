@@ -1,0 +1,38 @@
+/* src/styles/Settings.css */
+.settings-container {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .settings-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .settings-container ul {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto 20px;
+    text-align: left;
+  }
+  
+  .settings-container li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .back-button {
+    background: #00796b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background: #00695c;
+  }
+  

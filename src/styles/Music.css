@@ -1,0 +1,44 @@
+/* src/styles/Music.css */
+.music-container {
+    background: #f0fff0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .music-container blockquote {
+    font-size: 18px;
+    font-style: italic;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff;
+    border-left: 5px solid #00796b;
+    max-width: 500px;
+  }
+  
+  .music-container input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .music-container button {
+    background: #00796b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .music-container button:hover {
+    background: #00695c;
+  }
+  

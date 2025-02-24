@@ -1,0 +1,35 @@
+/* src/styles/Sports.css */
+.sports-container {
+    background: #e6f7ff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .sports-container p,
+  .sports-container label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .sports-container input[type="radio"] {
+    margin: 0 5px;
+  }
+  
+  .sports-container button {
+    background: #00796b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .sports-container button:hover {
+    background: #00695c;
+  }
+  

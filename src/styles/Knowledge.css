@@ -1,0 +1,35 @@
+/* src/styles/Knowledge.css */
+.knowledge-container {
+    background: #f0f8ff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .knowledge-container p,
+  .knowledge-container label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .knowledge-container input[type="radio"] {
+    margin: 0 5px;
+  }
+  
+  .knowledge-container button {
+    background: #00796b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .knowledge-container button:hover {
+    background: #00695c;
+  }
+  

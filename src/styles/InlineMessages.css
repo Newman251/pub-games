@@ -1,0 +1,52 @@
+/* src/styles/InlineMessages.css */
+.inline-messages-container {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.inline-messages-container h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.messages-list {
+  max-height: 200px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.message-item {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.message-input {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.message-input input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.message-input button {
+  background: #00796b;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.message-input button:hover {
+  background: #00695c;
+}

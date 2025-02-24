@@ -1,0 +1,56 @@
+/* src/styles/Leaderboard.css */
+.leaderboard-container {
+  flex: 1;
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.leaderboard-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: left;
+}
+
+.leaderboard-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+}
+
+.rank {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.back-button {
+  background: #00796b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.back-button:hover {
+  background: #00695c;
+}
+.leaderboard-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.leaderboard-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .leaderboard-wrapper {
+    flex-direction: column;
+  }
+}

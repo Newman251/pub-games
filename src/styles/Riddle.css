@@ -1,0 +1,40 @@
+/* src/styles/Riddle.css */
+.riddle-container {
+    background: #fffaf0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .riddle-container p,
+  .riddle-container label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .riddle-container input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .riddle-container button {
+    background: #00796b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .riddle-container button:hover {
+    background: #00695c;
+  }
+  
