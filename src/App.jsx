@@ -13,6 +13,7 @@ import SixNations from './components/SixNations';
 import Leaderboard from './components/Leaderboard';
 import './styles/App.css';
 
+
 function App() {
   const [screen, setScreen] = useState('home');
   const [registration, setRegistration] = useState(() => {
