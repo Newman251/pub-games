@@ -28,9 +28,6 @@ function Home({ navigate }) {
         <button className="category-btn" onClick={() => handleCategorySelect('Sports')}>
           Sports
         </button>
-        <button className="category-btn" onClick={() => handleCategorySelect('Messages')}>
-          Messages
-        </button>
       </div>
       <div className="featured-games">
         <h2>Featured Games</h2>
